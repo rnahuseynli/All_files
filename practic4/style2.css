@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: white;
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: gray;
+    text-align: center;
+}
+
+#card {
+    padding: 50px;
+    margin: 50px;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+    border-radius: 100%;
+}
+
+#title {
+    text-align: center;
+}
+
+.photo {
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h4{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 300px;
+   padding: 20px;
+   z-index: 20;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 189, 200);
+
+}
+#general__title{
+    display: flex;
+}
+li{
+    list-style: none;
+ 
+}
+ul{
+    display: flex;
+    
+}
+.txt1{
+    margin-left: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    position: relative;
+    z-index: 20;
+}
+   
+
+.txt2{
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    position: relative;
+    z-index: 20;
+ 
+}
+#hero__section{
+    background-image:url(https://i.pinimg.com/originals/40/91/da/4091da27f8577504fd0c581d19591fc0.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:700px;
+}
+#title ::after{
+    position: absolute;
+    content: "";
+    background-color: rgba(119, 76, 76, 0.247);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    height: 60px;
+}
+.nd__title{
+    text-align: center;
+    margin-top: 200px;
+}
+h1{
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-left: 400px;
+padding-right: 400px;
+color: white;
+}
+.btn{
+    padding: 25px 50px;
+    text-align: center;
+    background-color: rgb(228, 29, 95);
+    color: white;
+    border-radius: 40px;
+    border: none;
+    margin-left: 850px;
+    margin-top: 10px;
+} 
+.medium__title p{
+   
+    font-size:50px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 10px;
+   
+   
+}
+#medium{
+    display: flex;
+    width: 1440px;
+    margin: 0 auto;
+   
+}
+.medium__content{
+    padding: 20px;
+}
+img{
+    border-radius: 50%;
+    margin-left: 300px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    margin: 0px 10px;
+}
+
+.hero__section {
+    padding: 150px;
+
+    color: white;
+
+}
+
+#ndtitle {
+    text-align: center;
+    padding-left: 500px;
+    padding-right: 500px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+   z-index: 20;
+}
+
+#text {
+    color: gray;
+    padding-left: 500px;
+    padding-right: 500px;
+    margin-top: 30px;
+}
+
+.hero__section {
+    background-image: url(https://media.istockphoto.com/id/1077988046/photo/got-tons-of-emails-to-reply-to.jpg?s=612x612&w=0&k=20&c=CuTEYY-_GH3XYF7oQEcMjOaLh-Syla9IZB92e7PXmPc=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+
+
+
+}
+
+.hero__section ::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(119, 76, 76, 0.247);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
+
+#button {
+    text-align: center;
+    background-color: rgb(247, 71, 71);
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 750px;
+    margin-top: 50px;
+    border-color: lightblue;
+}
+
+#Title {
+    color: white;
+}

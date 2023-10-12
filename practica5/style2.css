@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 20px 50px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    margin: 0px 10px;
+}
+.hero__section{
+    padding-top: 150px;
+}
